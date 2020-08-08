@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "528026059593",
+    "firebase_url": "https://rawfoodmarket-bfbb1.firebaseio.com",
+    "project_id": "rawfoodmarket-bfbb1",
+    "storage_bucket": "rawfoodmarket-bfbb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528026059593:android:21073ad143cb256a051098",
+        "android_client_info": {
+          "package_name": "com.adr.rawfoodmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528026059593-ll76ffv0todvecqq5h7ob7qe9gjp5gn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTdmuLWAusMiCyMUZT3aU5vjpdGK9QvjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528026059593-ll76ffv0todvecqq5h7ob7qe9gjp5gn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
