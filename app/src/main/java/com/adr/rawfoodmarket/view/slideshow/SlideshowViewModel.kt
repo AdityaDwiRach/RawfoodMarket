@@ -1,4 +1,4 @@
-package com.adr.rawfoodmarket.ui.slideshow
+package com.adr.rawfoodmarket.view.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

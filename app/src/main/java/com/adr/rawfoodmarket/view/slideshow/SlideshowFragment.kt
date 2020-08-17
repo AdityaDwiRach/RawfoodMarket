@@ -1,4 +1,4 @@
-package com.adr.rawfoodmarket.ui.slideshow
+package com.adr.rawfoodmarket.view.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater

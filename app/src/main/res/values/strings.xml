@@ -10,4 +10,14 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="e_mail_caps">E-MAIL</string>
+    <string name="phone_number_caps">PHONE NUMBER</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login_caps">LOGIN</string>
+    <string name="register_caps">REGISTER</string>
+    <string name="or_caps">OR</string>
+    <string name="or_separator">------------------------------------------OR-------------------------------------------</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="indonesian_code">+62</string>
 </resources>
