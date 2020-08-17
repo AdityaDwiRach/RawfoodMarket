@@ -1,4 +1,4 @@
-package com.adr.rawfoodmarket.ui.home
+package com.adr.rawfoodmarket.view.home
 
 import android.os.Bundle
 import android.view.LayoutInflater

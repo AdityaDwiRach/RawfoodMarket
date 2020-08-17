@@ -1,4 +1,4 @@
-package com.adr.rawfoodmarket.ui.gallery
+package com.adr.rawfoodmarket.view.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
