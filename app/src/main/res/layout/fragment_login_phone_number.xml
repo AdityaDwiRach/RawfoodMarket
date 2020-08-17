@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_login_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/view_login_separator"
+            android:background="@drawable/rounded_background_grey"
+
+            android:text="@string/e_mail_caps" />
+
+        <View
+            android:id="@+id/view_login_separator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/btn_login_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/view_login_separator"
+            android:background="@drawable/rounded_background_green"
+            android:text="@string/phone_number_caps" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_login_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/btn_login_phone_number"
+            android:layout_toEndOf="@id/tv_login_phone_code"
+            android:paddingTop="8dp">
+
+            <EditText
+                android:id="@+id/et_login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_login_phone_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_login_phone_number"
+            android:textSize="18sp"
+            android:layout_marginEnd="16dp"
+            android:layout_alignTop="@id/til_login_phone_number"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:layout_alignBottom="@id/til_login_phone_number"
+            android:layout_alignParentStart="true"
+            android:text="@string/indonesian_code"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_login_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/til_login_phone_number"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/iv_login_visibility"
+            android:paddingTop="8dp">
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="8dp"
+                android:inputType="textPassword"
+                android:hint="@string/password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/iv_login_visibility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/til_login_phone_number"
+            android:layout_alignTop="@id/til_login_password"
+            android:layout_alignBottom="@id/til_login_password"
+            android:layout_alignParentEnd="true"
+            android:paddingStart="8dp"
+            android:tag="visibility_off"
+            android:src="@drawable/ic_visibility_off" />
+
+        <Button
+            android:id="@+id/btn_login_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/til_login_password"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_background_grey"
+            android:text="@string/login_caps" />
+
+        <TextView
+            android:id="@+id/tv_login_or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_login_login"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/or_separator"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_login_or"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_background_grey"
+            android:text="@string/register_caps" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
